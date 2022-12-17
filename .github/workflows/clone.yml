@@ -1,0 +1,25 @@
+name: Clone to 'fabric-root' branch
+on: [push, pull_request]
+
+jobs:
+  clone:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Clone dummy repo
+        run: |
+          git clone https://github.com/TubNet-Community/tubnet-tweaks
+          cd tubnet-tweaks
+          git checkout fabric-root
+      
+      - name: Copy files
+        run: |
+          cp -r ./assets/minecraft ./tubnet-tweaks
+
+      - name: Push to repo
+        run: |
+          cd tubnet-tweaks
+          git push
