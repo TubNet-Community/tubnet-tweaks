@@ -1,5 +1,7 @@
+[![Modrinth: Current Published Version](https://img.shields.io/modrinth/v/tubnet-tweaks?label=modrinth:%20latest%20version)](https://modrinth.com/resourcepack/tubnet-tweaks) [![Modrinth: Downloads](https://img.shields.io/modrinth/dt/tubnet-tweaks?label=modrinth:%20downloads)](https://modrinth.com/resourcepack/tubnet-tweaks)
 # TubNet Tweaks
-[Tubble Post](https://forums.tubnet.gg/threads/6410) | 
+[Tubble Post](https://forums.tubnet.gg/threads/6410)
+
 A resource pack (the first!) for [TubNet](https://forums.tubnet.gg/) that improves the TubNet user interface, and the look of the games Tubnet offers overall.
 
 ## Installing
